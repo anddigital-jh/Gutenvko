@@ -44,4 +44,4 @@ function register_card_block() {
 }
 
 add_action('enqueue_block_assets', 'my_register_gutenberg_card_block');
-add_action( 'plugins_loaded', 'register_card_block');
+add_action('plugins_loaded', 'register_card_block');
